@@ -12,18 +12,11 @@ Welcome to DDI on Rails's documentation!
     on http://www.ddionrails.org
     
 
-Contents:
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
 
    imports
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
