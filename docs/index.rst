@@ -6,6 +6,12 @@
 Welcome to DDI on Rails's documentation!
 ========================================
 
+.. note::
+
+    This is still work in progess. Please visit the official documentation
+    on http://www.ddionrails.org
+    
+
 Contents:
 
 .. toctree::
