@@ -4,7 +4,12 @@ analysis\_units.csv
 Columns
 -------
 
--  ``analysis_unit`` Name of the analysis unit (primary key).
--  ``label`` Short label.
--  ``description`` Description using Markdown.
+analysis\_unit [PK]
+    Name of the analysis unit.
+
+label
+    Short label.
+
+description
+    Description using Markdown.
 

@@ -4,20 +4,40 @@ logical\_variables.csv
 List of Columns
 ---------------
 
--  ``study`` Name of the study (primary key)
--  ``logical_dataset`` Name of the dataset (primary key)
--  ``logical_variable`` Name of the variable (primary key)
--  ``label`` Human-readable label.
--  ``concept`` Name of the underlying concept (foreign key)
--  ``questionnaire`` Name of the underlying questionnaire (foreign key)
--  ``question`` Name of the underlying question (foreign key)
--  ``item`` Name of the underlying item (foreign key)
--  ``is_primary_key`` Boolean indicator, if this variable is part of the
-   dataset's primary key.
--  ``basket_key`` Name of an study-specific identifier in this dataset,
-   which is used for the script generator.
--  ``basket_is_default`` Boolean indicator, whether a script generator
-   should include this variable by default, if its dataset is used.
+study
+    Primary key, name of the study.
+
+logical\_dataset
+    Primary key, name of the dataset.
+
+logical\_variable
+    Primary key, name of the variable.
+
+label
+    Human-readable label.
+
+concept
+    Name of the underlying concept, foreign key to concepts.csv.
+
+questionnaire
+    Name of the underlying questionnaire, foreign key to questionns.csv.
+
+question
+    Name of the underlying question, foreign key to questions.csv.
+
+item
+    Name of the underlying item, foreign key to questions.csv.
+
+is\_primary\_key
+    Boolean indicator, if this variable is part of the dataset's primary key.
+
+basket\_key
+    Name of an study-specific identifier in this dataset, which is used for
+    the script generator.
+
+basket\_is\_default
+    Boolean indicator, whether a script generator should include this variable
+    by default, if its dataset is used.
 
 Special Rules
 -------------
