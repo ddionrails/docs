@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'DDI on Rails'
-copyright = '2015, Marcel Hebing'
+copyright = '2015, Marcel Hebing, German Socio-Economic Panel (SOEP)'
 author = 'Marcel Hebing'
 
 # The version info for the project you're documenting, acts as replacement for
