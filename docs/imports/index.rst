@@ -82,3 +82,29 @@ All levels
     |  study-second/
     |  |  ...like study-first...
 
+
+CSV Imports
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
+    concepts_csv
+    periods_csv
+    logical_variables_csv
+    datasets_distributions_csv
+    distributions_csv
+    studies_csv
+    logical_datasets_csv
+    questions_csv
+    generations_csv
+    variable_categories_csv
+    script_generators_csv
+    variables_csv
+    questionnaires_csv
+    answers_csv
+    topics_csv
+    conceptual_datasets_csv
+    translations_csv
+    analysis_units_csv
+
