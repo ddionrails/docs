@@ -1,5 +1,5 @@
 
-User Guide
+User guide
 ==========
 
 .. note::
@@ -15,7 +15,7 @@ the results on the publication database. Primarily, it guides the user
 throughout the entire process of their research projects using the SOEP
 data from conception to publication and citation.
 
-Search Engine
+Search engine
 -------------
 
 On the main page a search option can be found, providing a quick way to
@@ -57,7 +57,7 @@ particular study. The same holds for the dataset browser. Furthermore,
 the variables can be selected according to the desired analysis unit or
 period on the left-hand side.
 
-Topics and Concepts
+Topics and concepts
 -------------------
 
 A variety of topics can be selected on the very top of every page next
@@ -77,7 +77,7 @@ Under "publications" you can search for any keyword and you will be
 directed to a list of papers that involve the searched word(s). Each
 result provides a link to the publication for direct access.
 
-Workspace and Basket
+Workspace and basket
 --------------------
 
 While the former SOEPinfo allowed the use of the basket and its script
