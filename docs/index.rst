@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to DDI on Rails's documentation!
-========================================
+DDI on Rails documentation
+==========================
 
 .. note::
 
@@ -20,4 +20,5 @@ Contents
 
    imports/index
    userguide/index
+   management/index
 
