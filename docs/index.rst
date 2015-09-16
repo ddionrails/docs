@@ -18,7 +18,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   imports/index
    userguide/index
    management/index
+   imports/index
 
