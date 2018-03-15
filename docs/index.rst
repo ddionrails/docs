@@ -21,4 +21,5 @@ Contents
    userguide/index
    management/index
    imports/index
+   api/index
 
