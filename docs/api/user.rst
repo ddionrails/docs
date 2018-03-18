@@ -21,7 +21,7 @@ A user is represented by the following properties:
 Property     Type 
 ===========  ============
 id           int
-email        string
+email        String
 is_active    boolean
 date_joined  timestamp 
 username     string 
