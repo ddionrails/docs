@@ -1,0 +1,80 @@
+openapi: "3.0.1"
+
+info:
+  title: paneldata.org API
+  description: "paneldata.org API"
+  version: "0.1"
+
+servers:
+  - url: https://paneldata.org/api
+    description: server
+
+paths:
+  /studies:
+    get:
+      tags:
+        - studies
+      summary: Returns a list of study objects.
+      responses:
+        '200':
+          description: Succesful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Study'
+
+  /studies/{study-id}:
+    get:
+      tags:
+        - studies
+      summary: Returns a single study object.
+      parameters:
+        - $ref: '#/components/parameters/StudyId'
+
+      responses:
+        '200':
+          description: Succesful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Study'
+
+# https://swagger.io/docs/specification/components/
+components:
+  # Reusable schemas (data models)
+  schemas:
+    Study: # Can be referenced as '#/components/schemas/Study'
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: soep-core
+      required:
+        - id
+        - name
+
+  # Reusable path, query, header and cookie parameters
+  parameters:
+    StudyId: # Can be referenced via '#/components/parameters/StudyId'
+      name: study-id
+      in: path
+      description: The id of the study.
+      required: true
+      schema:
+        type: integer
+        format: int32
+        minimum: 1
+
+  # Reusable responses, such as 401 Unauthorized or 400 Bad Request
+  # responses:
+
+  # Reusable examples
+  # examples:
+
+  # Reusable links
+  # links:
